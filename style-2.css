@@ -1,0 +1,114 @@
+body{
+    background: rgb(32, 29, 29); 
+}
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+header{
+    width: 100%; 
+    background-color: rgb(58, 57, 58);
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 20px 0;
+
+}
+.logo{
+    border-radius: 100%;
+    width: 75px;
+    margin: 0%;
+}
+.logo:hover{
+    border-radius: 0%;
+    transition: all 0.5s;
+}
+.logo-text{
+    margin-left: 20px;
+    color: black;
+    margin: 0%;
+
+
+}
+.menu li{
+    display: inline-block;
+    margin: 0 0px;
+    border: solid rgb(241, 239, 239) 2px;
+}
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+    text-transform: uppercase;
+    padding: 10PX 25px;
+    border-radius: 10px;
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.8);
+}
+.borda{
+    margin: 100px 150px;
+    padding: 5em 15em 5em;
+    border: 6px solid black;
+    font-family: system-ui;
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(58, 57, 58);
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-sizing: border-box;
+}
+.section-class{
+    margin: 100px 150px;
+    padding: 5em 15em 5em;
+    border: 6px solid ;
+    border-radius: 20px;
+    font-family: system-ui;
+    background-color: rgb(94, 94, 94);
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    border-radius: 50%;
+}
+figcaption{
+position:absolute; 
+font-size: 120%;
+color: white;
+}
+
+.lenda{
+    color: white;
+}
+
+.foot{
+    color: white;
+}
+.marquee{
+    color: white;
+}
+.lendas{
+    color: white;
+}
+.corpo{
+    text-align: center;
+}
+.spinner .is-animating{
+    animation: loanding 2s linear infinite;
+ }
+img{
+    width: 120%;
+     height: auto;
+ }
+.gif{
+     width: 80%;
+     height: auto;
+}
